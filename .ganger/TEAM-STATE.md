@@ -5,7 +5,7 @@ _Initialized: 2026-03-15_
 
 | Phase | Title | Owner | Status | Branch | Updated |
 |---|---|---|---|---|---|
-| 1 | Auth & Worlds | @vsm | in-progress | feat/ganger-phase-1-vsm | 2026-03-15 |
+| 1 | Auth & Worlds | @vsm | review | feat/ganger-phase-1-vsm | 2026-03-15 |
 | 2 | Entity Management | — | available | — | — |
 | 3 | Relationships & Linking | — | available | — | — |
 | 4 | Timeline | — | available | — | — |
@@ -23,3 +23,6 @@ _Initialized: 2026-03-15_
 ## Notes
 
 _Handoff notes will appear here as phases complete._
+
+> **Phase 1 — Auth & Worlds** (@vsm, 2026-03-15)
+> Scaffolding, auth and world creation done. Used Paul for SDD. Schema: users (extended from @convex-dev/auth), worlds (name, description, visibility, ownerId), memberships (worldId, userId, role). Routes: /dashboard, /worlds/[id]. Auth: password provider via @convex-dev/auth. Convex dev project: lorekeeper-dev.
