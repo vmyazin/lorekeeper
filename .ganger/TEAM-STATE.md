@@ -8,7 +8,7 @@ _Initialized: 2026-03-15_
 | 1 | Auth & Worlds | @vsm | merged | feat/ganger-phase-1-vsm | 2026-03-15 |
 | 2 | Entity Management | — | merged | — | 2026-03-15 |
 | 3 | Relationships & Linking | @dimka | in-progress | feat/ganger-phase-3-dimka | 2026-03-19 |
-| 4 | Timeline | — | available | — | — |
+| 4 | Timeline | @vsm | in-progress | feat/ganger-phase-4-vsm | 2026-03-19 |
 | 5 | AI Consistency Checker | — | available | — | — |
 | 6 | Contribution Workflow | — | available | — | — |
 
