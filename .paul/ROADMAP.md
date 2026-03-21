@@ -2,13 +2,13 @@
 
 ## Overview
 
-Lorekeeper ships in one milestone (v0.1 MVP): six sequential phases that build the full collaborative worldbuilding workflow — from auth and world creation, through entity management, relationships, timeline, AI consistency checking, and finally the propose/review/merge contribution workflow.
+Lorekeeper ships in one milestone (v0.1 MVP): seven phases that build the full collaborative worldbuilding workflow — from auth and world creation, through entity management, relationships, timeline, AI consistency checking, a visual relationship graph, and finally the propose/review/merge contribution workflow.
 
 ## Current Milestone
 
 **v0.1 MVP** (v0.1.0)
 Status: In progress
-Phases: 3 of 6 complete
+Phases: 4 of 8 complete
 
 ## Phases
 
@@ -20,6 +20,8 @@ Phases: 3 of 6 complete
 | 4 | Timeline | 2 | Complete | 2026-03-20 |
 | 5 | AI Consistency Checker | TBD | Not started | - |
 | 6 | Contribution Workflow | TBD | Not started | - |
+| 7 | Visual Hierarchy Display | TBD | Not started | - |
+| 8 | User Profile Page | TBD | Not started | - |
 
 ## Phase Details
 
@@ -117,6 +119,37 @@ Phases: 3 of 6 complete
 **Plans:**
 - [ ] 06-01: TBD
 
+### Phase 7: Visual Hierarchy Display
+
+**Goal:** An interactive visual graph showing how entities relate to each other — nodes connected by directional lines, visually pleasing and fun to explore
+**Depends on:** Phase 3 (relationships data), Phase 2 (entities)
+**Research:** Likely (graph visualization libraries — React Flow, D3-force, Cytoscape, vis.js, etc.)
+**Research topics:** Best React-compatible graph/network visualization library, force-directed layout options, styling/theming for dark UI, performance with 100+ nodes
+
+**Scope:**
+- Interactive node-and-edge graph per world
+- Entities as styled nodes (icon/color by type), relationships as labeled directed edges
+- Pan, zoom, drag nodes
+- Click node to navigate to entity detail
+- Visually polished — fits the dark/purple aesthetic
+
+**Plans:**
+- [ ] 07-01: TBD
+
+### Phase 8: User Profile Page
+
+**Goal:** User profile page where users can view and edit their personal data (name, email, avatar, etc.)
+**Depends on:** Phase 1 (auth, users table)
+**Research:** Unlikely (standard form patterns)
+
+**Scope:**
+- Profile page at /profile or /settings
+- View and edit name, email, avatar
+- Form validation and save feedback
+
+**Plans:**
+- [ ] 08-01: TBD
+
 ---
 *Roadmap created: 2026-03-15*
-*Last updated: 2026-03-20*
+*Last updated: 2026-03-21*

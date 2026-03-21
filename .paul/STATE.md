@@ -5,19 +5,19 @@
 See: .paul/PROJECT.md (updated 2026-03-20 after Phase 4)
 
 **Core value:** Co-authors can build and maintain a consistent shared universe bible, with AI catching contradictions before they become canon.
-**Current focus:** v0.1 MVP — Phase 4 complete. Phase 5 blocked on Phase 3 (@dimka).
+**Current focus:** v0.1 MVP — Phases 1-4 complete, Phase 3 merged. Phase 5 ready to start.
 
 ## Current Position
 
 Milestone: v0.1 MVP (v0.1.0)
-Phase: 5 of 6 (AI Consistency Checker) — Blocked
+Phase: 5 of 8 (AI Consistency Checker) — Ready
 Plan: Not started
-Status: Waiting for Phase 3 (Relationships & Linking) to merge
-Last activity: 2026-03-20 — Phase 4 complete, transitioned
+Status: Phase 3 merged, Phase 5 unblocked
+Last activity: 2026-03-21 — Phase 3 merged, added Phase 7: Visual Hierarchy Display
 
 Progress:
-- Milestone: [█████░░░░░] 50% (3/6 phases)
-- Phase 5: [░░░░░░░░░░] 0% — blocked on Phase 3
+- Milestone: [█████░░░░░] 50% (4/8 phases)
+- Phase 5: [░░░░░░░░░░] 0%
 
 ## Loop Position
 
@@ -41,12 +41,14 @@ PLAN ──▶ APPLY ──▶ UNIFY
 | Amber/gold accent for temporal markers | Phase 4 | --accent token, distinct from interactive purple |
 | Entity links denormalized on events | Phase 4 | Avoids N+1 queries |
 | Free-form date strings | Phase 4 | Fantasy worlds have arbitrary calendars |
+| Added Phase 7: Visual Hierarchy Display | Phase 5 | Extends milestone scope — visual relationship graph |
+| Added Phase 8: User Profile Page | Phase 5 | Extends milestone scope — profile editing |
 
 ### Deferred Issues
 None.
 
 ### Blockers/Concerns
-- Phase 5 depends on Phase 3 (Relationships & Linking) + Phase 4 (Timeline). Phase 4 done, Phase 3 in progress (@dimka).
+- Phase 7 depends on Phase 3 (merged) + Phase 2 (merged). Unblocked.
 
 ## Session Continuity
 

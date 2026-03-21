@@ -11,6 +11,8 @@ _Initialized: 2026-03-15_
 | 4 | Timeline | — | merged | — | 2026-03-20 |
 | 5 | AI Consistency Checker | — | available | — | — |
 | 6 | Contribution Workflow | — | available | — | — |
+| 7 | Visual Hierarchy Display | — | available | — | — |
+| 8 | User Profile Page | — | available | — | — |
 
 ## Dependency Graph
 
@@ -19,6 +21,8 @@ _Initialized: 2026-03-15_
 - Phase 4 depends on: Phase 2
 - Phase 5 depends on: Phase 3, Phase 4
 - Phase 6 depends on: Phase 5
+- Phase 7 depends on: Phase 2, Phase 3
+- Phase 8 depends on: Phase 1
 
 ## Notes
 
